@@ -4,24 +4,18 @@ The equations are of the form ax + by = c and dx + ey = f. The solution should b
 If there is no solution, print "There is no solution".
 
 Name: Brian Oliver
-Lab Time:
+Lab Time: 2/16/2024 2:56
 """
 
 def brute_eq():
     #Read in first equation, ax + by = c 
-    print("a")
     a = int(input())
-    print("b")
     b = int(input())
-    print("c")
     c = int(input())
 
     #Read in second equation, dx + ey = f
-    print("d")
     d = int(input())
-    print("e")
     e = int(input())
-    print("f")
     f = int(input())
     check = False
     for x in range(-10, 10, 1):

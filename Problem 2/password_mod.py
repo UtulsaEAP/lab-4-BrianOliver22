@@ -9,7 +9,7 @@ def password_mod():
     word = input()
     password = ''
     # Type your code here.
-    txt =zzy
+    
 
 if __name__ == "__main__":
     password_mod()

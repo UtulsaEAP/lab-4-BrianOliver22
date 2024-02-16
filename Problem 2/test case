@@ -1,5 +1,18 @@
+"""""
 my_list = ["apple", "banana", "cherry"]
 generator_expr = (str(element) for element in my_list)
 separator = ", "
 result_string = separator.join(generator_expr)
 print(result_string)  # Output: apple, banana, cherry
+
+txt = str(input())
+x= maxsplit=txt
+print(x)
+"""
+txt = str(input())
+x= txt.replace("i","1")
+x=txt.replace("a","@")
+x=txt.replace("m","M")
+x=txt.replace("B","8")
+x=txt.replace("s","$")
+print(x)
