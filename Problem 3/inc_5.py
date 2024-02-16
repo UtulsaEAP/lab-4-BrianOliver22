@@ -15,7 +15,7 @@ def inc_5():
     int4 = str(int1)
     #s=" "
     my_list = [str(int4)]
-    while (int1 <= int2):
+    while (int1 < int2):
         int1 += 5
         my_list.append(str(int1))
     #combined = s.join(combined)
