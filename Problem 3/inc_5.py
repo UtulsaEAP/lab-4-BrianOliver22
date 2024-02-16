@@ -21,18 +21,11 @@ def inc_5():
     #combined = s.join(combined)
     if (int3>int2):
         my_list = "Second integer can't be less than the first."
-    """""
-    generator = (str(element) for element in combined)
-    Separator = ", "
-    Result_string = Separator.join(generator)
-    print(Result_string)
-   # print(combined)
-    """
-
+    
     generator_expr = (str(element) for element in my_list)
     separator = ", "
     result_string = separator.join(generator_expr)
-    print(result_string)  # Output: apple, banana, cherry
+    print(result_string)
 
 if __name__ == '__main__':
     inc_5()
