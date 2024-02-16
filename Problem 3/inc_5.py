@@ -17,9 +17,9 @@ def inc_5():
         int1 += 5
         my_list.append(str(int1))
     #combined = s.join(combined)
-    if (int3>=int2):
+    if (int3>int2):
         print("Second integer can't be less than the first.")
-    elif (int3<int1):
+    elif (int3<=int1):
         generator_expr = (str(element) for element in my_list)
         separator = " "
         result_string = separator.join(generator_expr)
