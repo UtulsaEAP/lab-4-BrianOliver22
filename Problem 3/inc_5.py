@@ -20,12 +20,14 @@ def inc_5():
         my_list.append(str(int1))
     #combined = s.join(combined)
     if (int3>int2):
-        my_list = "Second integer can't be less than the first."
-    
-    generator_expr = (str(element) for element in my_list)
-    separator = ", "
-    result_string = separator.join(generator_expr)
-    print(result_string)
+        print("Second integer can't be less than the first.")
+    elif (int3<int1):
+        generator_expr = (str(element) for element in my_list)
+        separator = ", "
+        result_string = separator.join(generator_expr)
+        print(result_string)
+    else: 
+        prince = "prince"
 
 if __name__ == '__main__':
     inc_5()
