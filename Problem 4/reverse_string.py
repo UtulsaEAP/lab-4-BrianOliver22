@@ -8,6 +8,7 @@ Lab Time:
 def reverse_string():
     # YOUR CODE HERE
     my_list = []
+    string = "fun"
     while (string != "done") :
         string = str(string) [::-1]
         my_list.append(string)
