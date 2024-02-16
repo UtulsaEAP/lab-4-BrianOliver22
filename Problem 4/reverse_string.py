@@ -9,7 +9,7 @@ def reverse_string():
     # YOUR CODE HERE
     my_list = [" "]
     string = "fun"
-    while (string != "done") :
+    while (string != "done" or string != "d" or  string != "Done") :
         string = str(input())
         my_list.append(string [::-1])
     """""
@@ -19,8 +19,8 @@ def reverse_string():
         s1
     s.append()
 """
-    sep = "\\"
-    sep.join(string)
-    print(string)
+    sep = "\n"
+    new_list = sep.join(my_list)
+    print(new_list)
 if __name__ == "__main__":
     reverse_string()
