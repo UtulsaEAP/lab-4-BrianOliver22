@@ -25,7 +25,7 @@ def brute_eq():
                print(x, y)
     else:
        if check == False:
-               print('No solution')
+               print('There is no solution')
     # YOUR CODE HERE
     
 if __name__ == "__main__":

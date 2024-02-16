@@ -8,7 +8,7 @@ print(result_string)  # Output: apple, banana, cherry
 txt = str(input())
 x= maxsplit=txt
 print(x)
-"""
+
 txt = str(input())
 x= txt.replace("i","1")
 x= x.replace("a","@")
@@ -16,3 +16,6 @@ x= x.replace("m","M")
 x= x.replace("B","8")
 x= x.replace("s","$")
 print(x)
+"""
+txt = "hello World" [::-1]
+print(txt)

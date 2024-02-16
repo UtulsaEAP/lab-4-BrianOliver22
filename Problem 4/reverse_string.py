@@ -7,12 +7,14 @@ Lab Time:
 
 def reverse_string():
     # YOUR CODE HERE
-    string = str(input())
-    if 
+    string = str(input()) [::-1]
+    """""
     new = " "
-    s= ""
+    s1= ""
+    for c in s:
+        s1
     s.append()
-
-
+"""
+    print(string)
 if __name__ == "__main__":
     reverse_string()
