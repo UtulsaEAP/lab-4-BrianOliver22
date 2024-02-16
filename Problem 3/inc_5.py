@@ -12,8 +12,9 @@ def inc_5():
     print("put integer 2 here")
     int2 = int(input())
     int3 = int1
+    int4 = str(int1)
     #s=" "
-    combined = int1
+    combined = [str(int4)," "]
     while (int1 <= int2):
         int1 += 5
         combined.append(str(int1))
