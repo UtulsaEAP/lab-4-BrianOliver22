@@ -14,13 +14,13 @@ def inc_5():
     int3 = int1
     int4 = str(int1)
     #s=" "
-    combined = [str(int4)," "]
+    my_list = [str(int4)]
     while (int1 <= int2):
         int1 += 5
-        combined.append(str(int1))
+        my_list.append(str(int1))
     #combined = s.join(combined)
     if (int3>int2):
-        combined = "Second integer can't be less than the first."
+        my_list = "Second integer can't be less than the first."
     """""
     generator = (str(element) for element in combined)
     Separator = ", "
@@ -28,7 +28,7 @@ def inc_5():
     print(Result_string)
    # print(combined)
     """
-    my_list = combined
+
     generator_expr = (str(element) for element in my_list)
     separator = ", "
     result_string = separator.join(generator_expr)
