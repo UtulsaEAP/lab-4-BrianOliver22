@@ -7,10 +7,10 @@ Lab Time:
 
 def reverse_string():
     # YOUR CODE HERE
-    
-    while (string /= done):
+    my_list = []
+    while (string != "done") :
         string = str(string) [::-1]
-        my_list = []
+        my_list.append(string)
     """""
     new = " "
     s1= ""
@@ -18,6 +18,8 @@ def reverse_string():
         s1
     s.append()
 """
+    sep = "\\"
+    sep.join(string)
     print(string)
 if __name__ == "__main__":
     reverse_string()

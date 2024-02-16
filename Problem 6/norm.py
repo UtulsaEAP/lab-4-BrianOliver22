@@ -7,7 +7,9 @@ Lab Time:
 
 def norm():
     # Write your code here
-    h
+    list_num = int(input())
+    my_list = []
+    
 
 if __name__ == "__main__":
     norm()
