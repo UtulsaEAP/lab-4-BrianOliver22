@@ -1,0 +1,5 @@
+my_list = ["apple", "banana", "cherry"]
+generator_expr = (str(element) for element in my_list)
+separator = ", "
+result_string = separator.join(generator_expr)
+print(result_string)  # Output: apple, banana, cherry

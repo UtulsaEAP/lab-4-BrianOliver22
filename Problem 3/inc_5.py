@@ -1,15 +1,37 @@
 """
 Complete the following python code to print all numbers between the two values incrementing by 5 from the initial value to the final value. The initial value and final value are entered by the user. If the final value is less than the initial value, print "Second integer can't be less than the first.
 
-Name:
+Name: Brian Oliver
 Lab Time:
 """
 
 def inc_5():
     # Write your code here
-    
-
-
+    print("put integer 1 here")
+    int1= int(input())
+    print("put integer 2 here")
+    int2 = int(input())
+    int3 = int1
+    #s=" "
+    combined = int1
+    while (int1 <= int2):
+        int1 += 5
+        combined.append(str(int1))
+    #combined = s.join(combined)
+    if (int3>int2):
+        combined = "Second integer can't be less than the first."
+    """""
+    generator = (str(element) for element in combined)
+    Separator = ", "
+    Result_string = Separator.join(generator)
+    print(Result_string)
+   # print(combined)
+    """
+    my_list = combined
+    generator_expr = (str(element) for element in my_list)
+    separator = ", "
+    result_string = separator.join(generator_expr)
+    print(result_string)  # Output: apple, banana, cherry
 
 if __name__ == '__main__':
     inc_5()
