@@ -7,7 +7,7 @@ Lab Time:
 
 def reverse_string():
     # YOUR CODE HERE
-    s= 
+    s= ""
     s.append()
 
 if __name__ == "__main__":

@@ -23,7 +23,15 @@ def brute_eq():
     e = int(input())
     print("f")
     f = int(input())
-    
+    check = False
+    for x in range(-10, 10, 1):
+        for y in range(-10, 10, 1):
+            if a * x + b * y == c and d * x + e * y == f:
+               check = True
+               print(x, y)
+    else:
+       if check == False:
+               print('No solution')
     # YOUR CODE HERE
     
 if __name__ == "__main__":
