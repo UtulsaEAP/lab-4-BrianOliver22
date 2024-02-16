@@ -22,10 +22,11 @@ def brute_eq():
         for y in range(-10, 11):
             if a * x + b * y == c and d * x + e * y == f:
                check = True
-               print("x=",x, ", y=",y)
-    else:
-       if check == False:
-               print('There is no solution')
+               print("x =",x, ", y =",y)
+               break
+
+    if check == False:
+            print('There is no solution')
     # YOUR CODE HERE
     
 if __name__ == "__main__":

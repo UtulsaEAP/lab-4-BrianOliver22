@@ -7,9 +7,7 @@ Lab Time: 2/16/2024 2:00
 
 def inc_5():
     # Write your code here
-    print("put integer 1 here")
     int1= int(input())
-    print("put integer 2 here")
     int2 = int(input())
     int3 = int1
     int4 = str(int1)
