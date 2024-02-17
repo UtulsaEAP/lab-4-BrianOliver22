@@ -24,8 +24,7 @@ def inc_5():
         separator = " "
         result_string = separator.join(generator_expr)
         print(result_string)
-    else: 
-        prince = "prince"
+
 
 if __name__ == '__main__':
     inc_5()
