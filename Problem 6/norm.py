@@ -9,6 +9,19 @@ def norm():
     # Write your code here
     list_num = int(input())
     my_list = []
+    for i in range(list_num):
+        numb = float(input())
+        my_list.append(numb)
+    highest_val = 0
+    
+    for i in range(list_num):
+        if (highest_val < my_list[i]):
+            highest_val = my_list[i]
+
+    for i in range(list_num):
+        my_list[i]= (my_list[i]/highest_val) 
+        print(f'{my_list[i]:.2f}')
+
     
 
 if __name__ == "__main__":

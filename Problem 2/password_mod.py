@@ -6,19 +6,26 @@ Lab Time: 2/16/2024
 """
 
 def password_mod():
-    word = input()
+    word = str(input())
     password = ''
-    # Type your code here.
-    #txt = str(input())
-    password= word.replace("i","1")
-    password= password.replace("a","@")
-    password= password.replace("m","M")
-    password = password.replace("B","8")
-    password= password.replace("s","$")
+    for letter in word:
+        if letter == "i" : 
+            letter = "1"
+        elif letter == "a" :
+            letter = "@"
+        elif letter == "m":
+            letter = "M"
+        elif letter == "B":
+            letter = "8"
+        elif letter == "s":
+            letter = "$"
+        password = password + letter
+    
     password = password+"!"
-  #  password = fuck_you.join(password)
 
     print(password)
+    # Type your code here.
+    #txt = str(input())
 
 if __name__ == "__main__":
     password_mod()
