@@ -16,16 +16,11 @@ def reverse_binary():
         new = (user_num % 2)
         lst.append(str(new))
         user_num = int(user_num/2)
+    
     lst = lst [::1]
-    sep = "\n"
+    sep = ""
     lst = sep.join(lst)
     print(lst)
-"""""
-    bin_num = bin(user_num)
-    great = bin_num.lstrip('0b',)
-    better = bin_num.lstrip('-0b')
-    good = better [::-1]
-    print(good)
-        """
+
 if __name__ == "__main__":
     reverse_binary()
