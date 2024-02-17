@@ -7,11 +7,12 @@ Lab Time:
 
 def reverse_string():
     # YOUR CODE HERE
-    my_list = [" "]
-    string = "fun"
-    while (string != "done" or string != "d" or  string != "Done") :
-        string = str(input())
+    my_list = []
+    string = ""
+    while (string != "done") and (string != "Done") and (string != "d"):
         my_list.append(string [::-1])
+        string = str(input())
+        
     """""
     new = " "
     s1= ""
@@ -19,6 +20,7 @@ def reverse_string():
         s1
     s.append()
 """
+    
     sep = "\n"
     new_list = sep.join(my_list)
     print(new_list)
