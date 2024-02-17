@@ -16,6 +16,10 @@ x= x.replace("m","M")
 x= x.replace("B","8")
 x= x.replace("s","$")
 print(x)
-"""
+
 txt = "hello World" [::-1]
 print(txt)
+"""
+x=5
+x= x % 2
+print(x)

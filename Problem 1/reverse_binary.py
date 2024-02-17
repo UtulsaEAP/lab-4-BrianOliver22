@@ -10,13 +10,17 @@ Lab Time:
 def reverse_binary():
     user_num = int(input())
     # YOUR CODE HERE
-
-
+    while (user_num > 0):
+        user_num = (user_num/2)
+        user_num = (user_num % 2)
+        
+    print(user_num)
+"""""
     bin_num = bin(user_num)
     great = bin_num.lstrip('0b',)
     better = bin_num.lstrip('-0b')
     good = better [::-1]
     print(good)
-          
+        """
 if __name__ == "__main__":
     reverse_binary()
