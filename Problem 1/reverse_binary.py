@@ -10,11 +10,16 @@ Lab Time:
 def reverse_binary():
     user_num = int(input())
     # YOUR CODE HERE
-    while (user_num > 0):
-        user_num = (user_num/2)
-        user_num = (user_num % 2)
-        
-    print(user_num)
+    lst = []
+    new = user_num
+    while (user_num > 0.99999):
+        new = (user_num % 2)
+        lst.append(str(new))
+        user_num = int(user_num/2)
+    lst = lst [::1]
+    sep = "\n"
+    lst = sep.join(lst)
+    print(lst)
 """""
     bin_num = bin(user_num)
     great = bin_num.lstrip('0b',)
