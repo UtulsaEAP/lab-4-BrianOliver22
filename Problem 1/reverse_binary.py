@@ -12,7 +12,7 @@ def reverse_binary():
     # YOUR CODE HERE
     lst = []
     new = user_num
-    while (user_num > 0.99999):
+    while (user_num >= 1):
         new = (user_num % 2)
         lst.append(str(new))
         user_num = int(user_num/2)

@@ -2,7 +2,7 @@
 Complete the following python code to reverse the string entered by the user.
 
 Name: Brian Oliver
-Lab Time:
+Lab Time: 2/16 3
 """
 
 def reverse_string():
